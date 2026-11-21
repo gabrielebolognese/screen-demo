@@ -1,0 +1,24 @@
+{
+  "name": "screen-demo",
+  "description": "Polished demo videos and GIFs of any website, made by code: Claude plans the tour, a script plays it in Chromium with a smooth cursor, real clicks and typing, and renders zooms, highlight rings, captions and a title card.",
+  "version": "1.0.0",
+  "author": {
+    "name": "FlashFX"
+  },
+  "homepage": "https://github.com/gabrielebolognese/screen-demo",
+  "repository": "https://github.com/gabrielebolognese/screen-demo",
+  "license": "MIT",
+  "keywords": [
+    "demo",
+    "screen-recording",
+    "product-demo",
+    "gif",
+    "playwright",
+    "video",
+    "readme",
+    "walkthrough",
+    "marketing",
+    "skill"
+  ],
+  "icon": ".claude-plugin/icon.png"
+}

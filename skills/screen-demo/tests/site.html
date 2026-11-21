@@ -1,0 +1,23 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Acme Notes</title>
+<style>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f6f6f4;color:#111}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 48px;background:#fff;border-bottom:1px solid #ddd}
+header nav a{margin-left:24px;color:#333;text-decoration:none}
+.hero{padding:90px 48px;text-align:center}
+.hero h1{font-size:56px;margin:0 0 16px}
+.hero p{font-size:22px;color:#555}
+button{font-size:20px;padding:14px 28px;border:0;border-radius:10px;background:#111;color:#fff;cursor:pointer}
+input{font-size:20px;padding:12px 16px;border:2px solid #ccc;border-radius:10px;width:360px}
+.card{background:#fff;margin:40px auto;max-width:900px;padding:40px;border-radius:16px;box-shadow:0 6px 24px rgba(0,0,0,.08)}
+.tall{height:900px}
+#done{font-size:28px;color:#1a7f37;margin-top:16px;min-height:40px}
+</style></head>
+<body>
+<header><strong>Acme Notes</strong><nav><a href="#features">Features</a><a href="#pricing">Pricing</a><a href="#signup">Sign up</a></nav></header>
+<section class="hero"><h1>Notes that write themselves</h1><p>Type a thought, get a tidy note.</p>
+<input id="idea" placeholder="Type a thought..."> <button id="go" onclick="document.getElementById('done').textContent='Saved: '+document.getElementById('idea').value">Make the note</button>
+<div id="done"></div></section>
+<section class="card tall" id="features"><h2>Features</h2><p>Everything you need, nothing you don't.</p></section>
+<section class="card" id="pricing"><h2>Pricing</h2><p style="font-size:44px;font-weight:800">$0 forever</p><button id="start">Start free</button></section>
+</body></html>

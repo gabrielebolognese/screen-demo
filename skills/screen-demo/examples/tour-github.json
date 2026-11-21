@@ -1,0 +1,74 @@
+{
+ "url": "https://github.com/gabrielebolognese/claurosel-maker-3d",
+ "format": "landscape",
+ "elements": "elements.json",
+ "settle": 2.0,
+ "title_card": {
+  "text": "A GitHub repo in 25 seconds",
+  "subtitle": "recorded and edited by screen-demo",
+  "seconds": 2.2
+ },
+ "steps": [
+  {
+   "do": "caption",
+   "text": "A Claude Code skill for 3D carousels",
+   "seconds": 3.2
+  },
+  {
+   "do": "scroll",
+   "to": "css=img[alt^='Four slides of an example']",
+   "seconds": 1.6,
+   "at": 0.12
+  },
+  {
+   "do": "zoom",
+   "target": "css=img[alt^='Four slides of an example']",
+   "scale": 1.45,
+   "seconds": 2.6,
+   "scroll": false
+  },
+  {
+   "do": "caption",
+   "text": "Install in one line",
+   "seconds": 3.4
+  },
+  {
+   "do": "scroll",
+   "to": "#75",
+   "seconds": 1.2,
+   "at": 0.45
+  },
+  {
+   "do": "highlight",
+   "target": "css=.markdown-body pre",
+   "seconds": 1.6,
+   "scroll": false
+  },
+  {
+   "do": "click",
+   "target": "#75"
+  },
+  {
+   "do": "caption",
+   "text": "Any niche, the same look",
+   "seconds": 3.4
+  },
+  {
+   "do": "scroll",
+   "to": "css=img[alt^='Four slides of a meal prep']",
+   "seconds": 1.8,
+   "at": 0.15
+  },
+  {
+   "do": "zoom",
+   "target": "css=img[alt^='Four slides of a meal prep']",
+   "scale": 1.4,
+   "seconds": 2.4,
+   "scroll": false
+  },
+  {
+   "do": "wait",
+   "seconds": 0.6
+  }
+ ]
+}
